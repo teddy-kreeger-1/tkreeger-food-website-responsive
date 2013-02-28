@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact Page</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="fluidgrid.css" rel="stylesheet" type="text/css">
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -24,13 +24,37 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="jquery/respond.min.js"></script>
 </head>
 <body>
 <div class="gridContainer clearfix">
   <div id="header">This is the content for Layout Div Tag "header"</div>
   <div id="leftside">This is the content for Layout Div Tag "leftside"</div>
-  <div id="maincontent">This is the content for Layout Div Tag "maincontent"</div>
+  <div id="maincontent">This is the content for Layout D
+    <table width="300px">
+      <tbody>
+        <tr>
+          <td valign="top"><label for="first_name">First Name *</label></td>
+          <td valign="top"><input name="first_name" maxlength="50" size="30" type="text"></td>
+        </tr>
+        <tr>
+          <td valign="top"><label for="last_name">Last Name *</label></td>
+          <td valign="top"><input name="last_name" maxlength="50" size="30" type="text"></td>
+        </tr>
+        <tr>
+          <td valign="top"><label for="email">Email Address *</label></td>
+          <td valign="top"><input name="email" maxlength="80" size="30" type="text"></td>
+        </tr>
+        <tr>
+          <td valign="top"><label for="telephone">Telephone Number *</label></td>
+          <td valign="top"><input name="telephone" maxlength="30" size="30" type="text"></td>
+        </tr>
+        <tr>
+          <td valign="top"><label for="comments"><strong>Comments:</strong> Tell us about your good or bad restaurant experiences*</label></td>
+        </tr>
+      </tbody>
+    </table>
+  iv Tag "maincontent"</div>
   <div id="rightside">This is the content for Layout Div Tag "rightside"</div>
   <div id="footer">This is the content for Layout Div Tag "footer"</div>
 </div>

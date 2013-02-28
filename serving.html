@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Serving Page</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="fluidgrid.css" rel="stylesheet" type="text/css">
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -24,13 +24,63 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="jquery/respond.min.js"></script>
 </head>
 <body>
 <div class="gridContainer clearfix">
   <div id="header">This is the content for Layout Div Tag "header"</div>
   <div id="leftside">This is the content for Layout Div Tag "leftside"</div>
-  <div id="maincontent">This is the content for Layout Div Tag "maincontent"</div>
+  <div id="maincontent">This is the content for Layout Div Tag "ma
+    <table>
+      <caption>
+        <h2>Restaurant Rundowns</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Restaurant Name:</th>
+          <th scope="col">On the Menu:</th>
+          <th scope="col">Per Person Cost</th>
+          <th scope="col">Best Dish</th>
+          <th scope="col">Rating 1-5 </th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="5">Data compiled by Adventures Unlimited, 2013.</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th scope="row">Ryan's</th>
+          <td>Family style dining offering a  buffet style menu with a lot of different choices for the pallette. %  steam tables, a huge salad and fruit bar, along with dessert bar.  Evening dining also serves cut steak and sliced roast.</td>
+          <td>$7.99-$12.99</td>
+          <td>Steak, Chicken &amp; Dumplings</td>
+          <td>+++--</td>
+        </tr>
+        <tr>
+          <th scope="row">Mariachi's</th>
+          <td>Family style dining offererings  that can be as simple as a Taco to full appetizing Mexican dishes,  salads, dips, fried ice cream, and they serve liquor.</td>
+          <td>$5.00-$15.00</td>
+          <td>Polo Fondido </td>
+          <td>++++-</td>
+        </tr>
+        <tr>
+          <th scope="row">Chile's</th>
+          <td>THey have a very upbeat modern type  menu offering form a simple burger to Cobb Salads. They serve liquor  and have many TV's for sports viewing.</td>
+          <td>$8.00-$15.00</td>
+          <td>Cobb Salad</td>
+          <td>++++-</td>
+        </tr>
+        <tr>
+          <th scope="row">Cuevas' Fish House</th>
+          <td>Family style dining offering what  else? FISH, Fired catfish with all the fixings. You can get filet or on  the bone all you can eat or you can try one of there many combo platters  they serve. </td>
+          <td>$10.00-15.00</td>
+          <td>Oyster &amp; Fish Combo</td>
+          <td>+++++</td>
+        </tr>
+      </tbody>
+    </table>
+  incontent"</div>
   <div id="rightside">This is the content for Layout Div Tag "rightside"</div>
   <div id="footer">This is the content for Layout Div Tag "footer"</div>
 </div>

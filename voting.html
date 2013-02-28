@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Voting Page</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="fluidgrid.css" rel="stylesheet" type="text/css">
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -24,13 +24,98 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="jquery/respond.min.js"></script>
 </head>
 <body>
 <div class="gridContainer clearfix">
   <div id="header">This is the content for Layout Div Tag "header"</div>
   <div id="leftside">This is the content for Layout Div Tag "leftside"</div>
-  <div id="maincontent">This is the content for Layout Div Tag "maincontent"</div>
+  <div id="maincontent">This is the content for Layout Div Tag 
+    <table>
+      <caption>
+        <h2>The Poles are in...</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Restaurant</th>
+          <th scope="col">Worst/Best Comment</th>
+          <th scope="col">Hits</th>
+          <th scope="col">Misses</th>
+          <th scope="col">Yea/Nay Votes</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="5">Data compiled by Adventures Unlimited, 2013.</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th scope="row">Don's Seafood</th>
+          <td>Good food, a little pricy though.</td>
+          <td>Hit</td>
+          <td>----------</td>
+          <td>37/18</td>
+        </tr>
+        <tr>
+          <th scope="row">El Mariachi's</th>
+          <td>THe best meal I have had in a long time. Very good service.</td>
+          <td>Hit</td>
+          <td>----------</td>
+          <td>43/10</td>
+        </tr>
+        <tr>
+          <th scope="row">Chile's</th>
+          <td>I was there for a spors event, we enjoyed ourselves greatly. Will do it again.</td>
+          <td>Hit</td>
+          <td>----------</td>
+          <td>29/14</td>
+        </tr>
+        <tr>
+          <th scope="row">Cuevas' Fish House</th>
+          <td>Great family dining experience, felt like I was at a family reunion. Food was good too.</td>
+          <td>Hit</td>
+          <td>----------</td>
+          <td>49/9</td>
+        </tr>
+        <tr>
+          <th scope="row">Ryan's</th>
+          <td>Everytime I go, I say I won't go again, but I do, knowing it is going to suck. It's not worth the price.</td>
+          <td>---------</td>
+          <td>Miss</td>
+          <td>35/82</td>
+        </tr>
+        <tr>
+          <th scope="row">Betty K's</th>
+          <td>Can't get no more home grown than this place. Wonderful friendly atmosphere and good food.</td>
+          <td>Hit</td>
+          <td>---------</td>
+          <td>114/2</td>
+        </tr>
+        <tr>
+          <th scope="row">Ichiban's</th>
+          <td>Good lunch time place to eat. They serve fresh made sushi and grill to order foods.</td>
+          <td>Hit</td>
+          <td>----------</td>
+          <td>78/19</td>
+        </tr>
+        <tr>
+          <th scope="row">Kentucky Fried Chicken</th>
+          <td>Chicken to oreder or a buffet style. The buffet is fair, it is hard to believe you can ruin beans, but they manage.</td>
+          <td>---------</td>
+          <td>Miss</td>
+          <td>33/145</td>
+        </tr>
+        <tr>
+          <th scope="row"> Po-Boys</th>
+          <td>Good New Orleans style po-boys and decent food specials for lunch time. A bit slow and a wee bit on the high side.</td>
+          <td>Hit</td>
+          <td>---------</td>
+          <td>190/23</td>
+        </tr>
+      </tbody>
+    </table>
+  "maincontent"</div>
   <div id="rightside">This is the content for Layout Div Tag "rightside"</div>
   <div id="footer">This is the content for Layout Div Tag "footer"</div>
 </div>
