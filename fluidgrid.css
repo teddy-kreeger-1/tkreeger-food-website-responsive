@@ -42,6 +42,41 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#rightside {
+	clear: none;
+	float: left;
+	margin-left: 2.2222%;
+	width: 14.8148%;
+	display: block;
+}
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 2.2222%;
+	width: 65.9259%;
+	display: block;
+}
+#leftside {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 14.8148%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -52,6 +87,41 @@ img, object, embed, video {
 	padding-right: 0.7581%;
 }
 #LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#rightside {
+	clear: none;
+	float: left;
+	margin-left: 1.6574%;
+	width: 23.7569%;
+	display: block;
+}
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 1.6574%;
+	width: 49.1712%;
+	display: block;
+}
+#leftside {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23.7569%;
+	display: block;
+}
+#footer {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -71,6 +141,41 @@ img, object, embed, video {
 	margin: auto;
 }
 #LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#rightside {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+#leftside {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.6007%;
+	display: block;
+}
+#footer {
 	clear: both;
 	float: left;
 	margin-left: 0;
